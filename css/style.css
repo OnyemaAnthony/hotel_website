@@ -135,9 +135,9 @@ p {
     background: #333;
     color: #fff;
 }
-.btn-light{
+.bg-light{
     background: #f4f4f4;
-    color: #fff;
+    color: #333;
 }
 .bg-primary{
     background:  #f7c08a;
@@ -154,6 +154,16 @@ p {
 }
 .box i{
     margin-bottom: 10px;
+}
+.clr{
+    clear: both;
+}
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+
 }
 
 
