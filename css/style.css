@@ -140,11 +140,20 @@ p {
     color: #fff;
 }
 .bg-primary{
-    background: #333;
-    color: #f7c08a;
+    background:  #f7c08a;
+    color:#333;
 }
 #home-info .info-content{
     padding-bottom: 30px;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
 }
 
 
