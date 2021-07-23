@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hotel- Website | Anthony's Hotel</title>
 </head>
 <body>
 
+<header>
+
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="log"><a href="index.html">
+                HBT</a>
+            </h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+<section id="contact-form"class="py-3">
+    <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span>Us</h1>
+        <p>Please fill out the form below to contct us</p>
+        <form action="process.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="email" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" ></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    
+</section>
+
+<section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box" >
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3> location</h3>
+            <p>Central School obune inyi Oji River LGA Enugu State</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone Number</h3>
+            <p>+2349032627367</p>
+
+        </div>
+        <div class="box ">
+            <i class="fas fa-envelope fa-3x"></i>
+
+            <h3>Email address</h3>
+            <p>Anthony@gmail.com</p>
+
+        </div>
+    </div>
+
+</section>
+<footer id="main-footer">
+    <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+
+</footer>
 </body>
 </html>
