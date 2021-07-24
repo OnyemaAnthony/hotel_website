@@ -1,0 +1,22 @@
+
+
+.container{
+    background: #555;
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: baseline;
+}
+
+/*justify content is align items horizontally {we use justify-items}*/
+
+/*alignItems is align item vertically there must be a height{ we use align-items}*/
+/*align verticall when there is extra space {we use align-content: }*/
+.item{
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 300px;
+}
